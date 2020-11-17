@@ -1,0 +1,329 @@
+{
+  "window.zoomLevel": 0,
+  "window.openFoldersInNewWindow": "on",
+
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.tabSize": 4,
+  "editor.cursorBlinking": "expand",
+  "editor.mouseWheelZoom": true,
+  // "editor.cursorStyle": "block",
+  "editor.renderWhitespace": "all",
+  "editor.fontSize": 12,
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "editor.fontFamily": "Fira Code, SF Mono, Inconsolata, Droid Sans Mono, Roboto Mono,Menlo, Monaco, 'Courier New', monospace, Operator Mono Light",
+  "editor.fontWeight": "600",
+  "editor.tokenColorCustomizations": {
+    "[Material Theme Darker High Contrast]": {
+      "strings": "#F7FF6B",
+      "functions": "#82C5FF",
+      "textMateRules": [{
+          "scope": [
+            "keyword.operator",
+            "keyword.control",
+            "keyword.other"
+          ],
+          "settings": {
+            "foreground": "#DA70D6"
+          }
+        },
+
+        {
+          "scope": [
+            //following will be in italics (=Pacifico)
+            "comment",
+            "entity.name.type.class", //class names
+            "keyword", //import, export, return…
+            //"support.class.builtin.js", //String, Number, Boolean…, this, super
+            "storage.modifier", //static keyword
+            "storage.type.class.js", //class keyword
+            "storage.type.function.js", // function keyword
+            "storage.type.js", // Variable declarations
+            "keyword.control.import.js", // Imports
+            "keyword.control.from.js", // From-Keyword
+            //"entity.name.type.js", // new … Expression
+            "keyword.control.flow.js", // await
+            "keyword.control.conditional.js", // if
+            "keyword.control.loop.js", // for
+            "keyword.operator.new.js", // new
+          ],
+          "settings": {
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "scope": [
+            //following will be excluded from italics (My theme (Monokai dark) has some defaults I don't want to be in italics)
+            "invalid",
+            "keyword.operator",
+            "constant.numeric.css",
+            "keyword.other.unit.px.css",
+            "constant.numeric.decimal.js",
+            "constant.numeric.json",
+            "entity.name.type.class.js"
+          ],
+          "settings": {
+            "fontStyle": ""
+          }
+        }
+      ]
+    },
+  },
+
+  "material-icon-theme.showUpdateMessage": true,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": true,
+  "workbench.editor.highlightModifiedTabs": true,
+
+  // ! power mode config
+  "powermode.enabled": false,
+  "powermode.backgroundMode": "image",
+
+  // ! terminal integrated custome
+  // "terminal.integrated.fontFamily": "MesloLGL Nerd Font",
+  // "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
+
+  // ! carbon-now-sh setting
+  "carbon.backgroundColor": "rgba(0,0,0,0)",
+  "carbon.theme": "seti",
+  "carbon.dropShadow": true,
+  "carbon.windowControls": true,
+  "carbon.autoAdjustWidth": true,
+  "carbon.paddingVertical": 24,
+  "carbon.paddingHorizontal": 16,
+  "carbon.lineNumbers": false,
+  "carbon.fontFamily": "Hack",
+  "carbon.fontSize": 13,
+
+  // ! gist sync setting
+  "sync.gist": "e879174cb50963039a30b78dea14e1ee",
+  "sync.autoDownload": false,
+  "sync.autoUpload": false,
+  "sync.forceDownload": false,
+  "sync.quietSync": false,
+  "sync.askGistName": false,
+  "sync.removeExtensions": true,
+  "sync.syncExtensions": true,
+
+  "breadcrumbs.enabled": true,
+
+  "explorer.sortOrder": "type",
+  "explorer.decorations.badges": false,
+
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveshare.featureSet": "insiders",
+
+  "jslint.enable": false,
+  "eslint.autoFixOnSave": true,
+  "jshint.enable": false,
+
+
+  "swaggerViewer.previewInBrowser": true,
+  // "prettier.eslintIntegration": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.useTabs": false,
+  "prettier.jsonEnable": [], // Will disable Prettier Misc on JSON files
+  "prettier.openOutput": false,
+
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+
+  // ! Javascript settings
+  "javascript.format.enable": false,
+  "javascript.validate.enable": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+
+  "[php]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4
+  },
+  
+  // "cSpell.userWords" : [
+  //   "laravel"
+  // ],
+
+  "files.trimFinalNewlines": true,
+  "files.associations" : {
+    "*.blade.php" : "html",
+    "*.tpl" : "html"
+  },
+
+  // ! Setting of import cost
+  "importCost.largePackageColor": "#EC3A37F5",
+  "importCost.mediumPackageColor": "#FFFF00",
+  "importCost.smallPackageColor": "#039BE5",
+
+  "emmet.includeLanguages": {
+    "html": "html",
+    "erb": "erb",
+    "javascript": "javascriptreact",
+    "vue": "html",
+    "ejs": "html"
+  },
+
+  "peacock.favoriteColors": [
+    {
+      "name": "Angular Red",
+      "value": "#b52e31"
+    },
+    {
+      "name": "Auth0 Orange",
+      "value": "#eb5424"
+    },
+    {
+      "name": "Azure Blue",
+      "value": "#007fff"
+    },
+    {
+      "name": "C# Purple",
+      "value": "#68217A"
+    },
+    {
+      "name": "Gatsby Purple",
+      "value": "#639"
+    },
+    {
+      "name": "Go Cyan",
+      "value": "#5dc9e2"
+    },
+    {
+      "name": "Java Blue-Gray",
+      "value": "#557c9b"
+    },
+    {
+      "name": "JavaScript Yellow",
+      "value": "#f9e64f"
+    },
+    {
+      "name": "Mandalorian Blue",
+      "value": "#1857a4"
+    },
+    {
+      "name": "Node Green",
+      "value": "#215732"
+    },
+    {
+      "name": "React Blue",
+      "value": "#00b3e6"
+    },
+    {
+      "name": "Something Different",
+      "value": "#832561"
+    },
+    {
+      "name": "Vue Green",
+      "value": "#42b883"
+    }
+  ],
+  
+  "emojisense.languages": {
+    "markdown": true,
+    "git-commit": true,
+    "plaintext": false,
+    "json": true,
+  },
+
+  // ! indent rainbow settings
+  "indentRainbow.colors": [
+    "rgba(16,16,16,0.1)",
+    "rgba(16,16,16,0.3)",
+    "rgba(16,16,16,0.6)",
+    "rgba(16,16,16,0.4)",
+    "rgba(16,16,16,0.2)"
+  ],
+  "indentRainbow.errorColor": "rgba(128,32,32,0.6)",
+  "indentRainbow.tabmixColor": "rgba(128,32,96,0.6)",
+  "indentRainbow.ignoreErrorLanguages": [
+    "markdown",
+    "haskell"
+  ],
+  "indentRainbow.excludedLanguages": [
+    "plaintext"
+  ],
+  "cSpell.enabledLanguageIds": [
+    "asciidoc",
+    "c",
+    "cpp",
+    "csharp",
+    "css",
+    "dotenv",
+    "git-commit",
+    "go",
+    "handlebars",
+    "haskell",
+    "html",
+    "http",
+    "ignore",
+    "jade",
+    "java",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "jsonc",
+    "latex",
+    "less",
+    "markdown",
+    "php",
+    "plaintext",
+    "pug",
+    "python",
+    "restructuredtext",
+    "rust",
+    "scala",
+    "scss",
+    "sql",
+    "text",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "vue-html",
+    "xml",
+    "yaml",
+    "yml"
+  ],
+  "cSpell.language": "en,en-GB,en-US",
+
+  // ! color info
+  "colorInfo.languages": [
+    {
+      "selector": "css",
+      "colors": "css"
+    },
+    {
+      "selector": "sass",
+      "colors": "css"
+    },
+    {
+      "selector": "scss",
+      "colors": "css"
+    },
+    {
+      "selector": "less",
+      "colors": "css"
+    },{
+      "selector": "html",
+      "colors": "css"
+    }
+  ],
+
+  "markdown.links.openLocation": "beside",
+  "workbench.colorCustomizations": {},
+  "blade.format.enable": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "terminal.integrated.rendererType": "dom",
+  "oneDarkPro.vivid": true,
+  "oneDarkPro.bold": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "workbench.colorTheme": "One Dark Pro",
+  "[vue]": {},
+  "explorer.confirmDragAndDrop": false,
+}
